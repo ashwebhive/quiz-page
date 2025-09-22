@@ -1,0 +1,15 @@
+body{
+background-color: rgb(35, 35, 235);
+color: grey
+}
+
+#q1a1 :checked ~ q1a1-feedback .incorrect,
+#q1c1 :checked ~ q1c1-feedback .incorrect {
+    display: block;
+    color: red;
+}
+
+#q1b1 :checked ~ q1b1-feedback .correct {
+    display: block;
+    color: green;
+}
